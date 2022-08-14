@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="height: 115px;">
+      <div class="container-fluid d-flex flex-column justify-content-center">
+        <div class="container-fluid d-flex justify-content-center align-items-center" id="firstRow">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="container-fluid w-auto" id="header__MainLogo">
+            <a href="" class="navbar-brand">
+              <img src="img/logo.png" alt="">
+            </a>
+          </div>
+          <div class="container-fluid w-auto d-flex" id="header__icons">
+            <a class="navbar-brand" aria-current="page" href="info.html">
+              <img src="img/icons/profile.png" alt="">
+            </a>
+            <a class="navbar-brand" aria-current="page" href="info.html">
+              <img src="img/icons/cart.png" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse header__nav" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-row">
+            <li class="nav-item">
+              <a class="nav-link" href="info.html" tabindex="-1" aria-disabled="true">Манга</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="info.html" tabindex="-1" aria-disabled="true">Новинки</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="info.html" tabindex="-1" aria-disabled="true">Коллекции</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="info.html" tabindex="-1" aria-disabled="true">Распродажа</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+          class="active carousel__indicator" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"
+          class="carousel__indicator"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"
+          class="carousel__indicator"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="gradient">
+            <img class="d-block w-100" src="img/slider/frame_1.png" alt="First slide" />
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Проза бродячих псов</h1>
+            <p>
+              Самая продаваемая манга этого года, снова доступна в продажу
+            </p>
+            <a>Перейти в коллекцию</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="gradient">
+            <img class="d-block w-100" src="img/slider/frame_1.png" alt="First slide" />
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Проза бродячих псов</h1>
+            <p>
+              Самая продаваемая манга этого года, снова доступна в продажу
+            </p>
+            <a>Перейти в коллекцию</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="gradient">
+            <img class="d-block w-100" src="img/slider/frame_1.png" alt="First slide" />
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Проза бродячих псов</h1>
+            <p>
+              Самая продаваемая манга этого года, снова доступна в продажу
+            </p>
+            <a>Перейти в коллекцию</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="block__newManga">
+      <div class="block__name text__h1 d-flex justify-content-center">
+        Новое поступление
+      </div>
+      <div class="card__items">
+        <div class="card__item">
+          <div class="card__image">
+            <img src="img/goods/benzopila.png" alt="">
+          </div>
+          <div class="card__desc">
+            <div class="desc__name">
+              Человек-бензопила
+            </div>
+            <div class="desc__cost">
+              719 ₽
+              <a class="desc__btn">В корзину</a>
+            </div>
+          </div>
+        </div>
+        <div class="card__item">
+          <div class="card__image">
+            <img src="img/goods/benzopila.png" alt="">
+          </div>
+          <div class="card__desc">
+            <div class="desc__name">
+              Человек-бензопила
+            </div>
+            <div class="desc__cost">
+              719 ₽
+              <a class="desc__btn">В корзину</a>
+            </div>
+          </div>
+        </div>
+        <div class="card__item">
+          <div class="card__image">
+            <img src="img/goods/benzopila.png" alt="">
+          </div>
+          <div class="card__desc">
+            <div class="desc__name">
+              Человек-бензопила
+            </div>
+            <div class="desc__cost">
+              719 ₽
+              <a class="desc__btn">В корзину</a>
+            </div>
+          </div>
+        </div>
+        <div class="card__item">
+          <div class="card__image">
+            <img src="img/goods/benzopila.png" alt="">
+          </div>
+          <div class="card__desc">
+            <div class="desc__name">
+              Человек-бензопила
+            </div>
+            <div class="desc__cost">
+              719 ₽
+              <a class="desc__btn">В корзину</a>
+            </div>
+          </div>
+        </div>
+        <div class="card__item">
+          <div class="card__image">
+            <img src="img/goods/benzopila.png" alt="">
+          </div>
+          <div class="card__desc">
+            <div class="desc__name">
+              Человек-бензопила
+            </div>
+            <div class="desc__cost">
+              719 ₽
+              <a class="desc__btn">В корзину</a>
+            </div>
+          </div>
+        </div>
+        <div class="card__item">
+          <div class="card__image">
+            <img src="img/goods/benzopila.png" alt="">
+          </div>
+          <div class="card__desc">
+            <div class="desc__name">
+              Человек-бензопила
+            </div>
+            <div class="desc__cost">
+              719 ₽
+              <a class="desc__btn">В корзину</a>
+            </div>
+          </div>
+        </div>
+        <div class="card__item">
+          <div class="card__image">
+            <img src="img/goods/benzopila.png" alt="">
+          </div>
+          <div class="card__desc">
+            <div class="desc__name">
+              Человек-бензопила
+            </div>
+            <div class="desc__cost">
+              719 ₽
+              <a class="desc__btn">В корзину</a>
+            </div>
+          </div>
+        </div>
+        <div class="card__item">
+          <div class="card__image">
+            <img src="img/goods/benzopila.png" alt="">
+          </div>
+          <div class="card__desc">
+            <div class="desc__name">
+              Человек-бензопила
+            </div>
+            <div class="desc__cost">
+              719 ₽
+              <a class="desc__btn">В корзину</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="" class="block__link d-flex justify-content-center">Весь список манги</a>
+    </div>
+    <div class="container-fluid d-flex flex-column align-items-center block__genres">
+      <div class="block__name text__h1">
+        Возрастные жанры манги
+      </div>
+      <div class="row flex-nowrap">
+        <div class="col d-flex justify-content-center align-items-center genres__item">
+          <div id="genre__kodomo" class="genre__name d-flex justify-content-center flex-column align-items-center">
+            <div class="genre__title">
+              Кодомо
+            </div>
+            <a class="genre__btn">Каталог</a>
+          </div>
+          <img class="genre__img" src="img/genres/kodomo.png" alt="">
+        </div>
+        <div class="col d-flex justify-content-center align-items-center genres__item">
+          <div id="genre__kodomo" class="genre__name d-flex justify-content-center flex-column align-items-center">
+            <div class="genre__title">
+              Сёнэн
+            </div>
+            <a class="genre__btn">Каталог</a>
+          </div>
+          <img class="genre__img" src="img/genres/sonen.png" alt="">
+        </div>
+        <div class="col d-flex justify-content-center align-items-center genres__item">
+          <div id="genre__kodomo" class="genre__name d-flex justify-content-center flex-column align-items-center">
+            <div class="genre__title">
+              Сёдзэ
+            </div>
+            <a class="genre__btn">Каталог</a>
+          </div>
+          <img class="genre__img" src="img/genres/sedze.png" alt="">
+        </div>
+      </div>
+      <div class="row flex-nowrap">
+        <div class="col d-flex justify-content-center align-items-center genres__item">
+          <div id="genre__kodomo" class="genre__name d-flex justify-content-center flex-column align-items-center">
+            <div class="genre__title">
+              Сейнэн
+            </div>
+            <a class="genre__btn">Каталог</a>
+          </div>
+          <img class="genre__img__large" src="img/genres/seynen.png" alt="">
+        </div>
+        <div class="col d-flex justify-content-center align-items-center genres__item">
+          <div id="genre__kodomo" class="genre__name d-flex justify-content-center flex-column align-items-center">
+            <div class="genre__title">
+              Дзёсэй
+            </div>
+            <a class="genre__btn">Каталог</a>
+          </div>
+          <img class="genre__img__large" src="img/genres/dsesey.png" alt="">
+        </div>
+
+      </div>
+    </div>
+    <div class="block__newHits">
+      <div class="block__name text__h1 d-flex justify-content-center">
+        Новое поступление
+      </div>
+      <div class="card__items">
+        <div class="card__item">
+          <div class="card__image">
+            <img src="img/goods/benzopila.png" alt="">
+          </div>
+          <div class="card__desc">
+            <div class="desc__name">
+              Человек-бензопила
+            </div>
+            <div class="desc__cost">
+              719 ₽
+              <a class="desc__btn">В корзину</a>
+            </div>
+          </div>
+        </div>
+        <div class="card__item">
+          <div class="card__image">
+            <img src="img/goods/benzopila.png" alt="">
+          </div>
+          <div class="card__desc">
+            <div class="desc__name">
+              Человек-бензопила
+            </div>
+            <div class="desc__cost">
+              719 ₽
+              <a class="desc__btn">В корзину</a>
+            </div>
+          </div>
+        </div>
+        <div class="card__item">
+          <div class="card__image">
+            <img src="img/goods/benzopila.png" alt="">
+          </div>
+          <div class="card__desc">
+            <div class="desc__name">
+              Человек-бензопила
+            </div>
+            <div class="desc__cost">
+              719 ₽
+              <a class="desc__btn">В корзину</a>
+            </div>
+          </div>
+        </div>
+        <div class="card__item">
+          <div class="card__image">
+            <img src="img/goods/benzopila.png" alt="">
+          </div>
+          <div class="card__desc">
+            <div class="desc__name">
+              Человек-бензопила
+            </div>
+            <div class="desc__cost">
+              719 ₽
+              <a class="desc__btn">В корзину</a>
+            </div>
+          </div>
+        </div>
+        <div class="card__item">
+          <div class="card__image">
+            <img src="img/goods/benzopila.png" alt="">
+          </div>
+          <div class="card__desc">
+            <div class="desc__name">
+              Человек-бензопила
+            </div>
+            <div class="desc__cost">
+              719 ₽
+              <a class="desc__btn">В корзину</a>
+            </div>
+          </div>
+        </div>
+        <div class="card__item">
+          <div class="card__image">
+            <img src="img/goods/benzopila.png" alt="">
+          </div>
+          <div class="card__desc">
+            <div class="desc__name">
+              Человек-бензопила
+            </div>
+            <div class="desc__cost">
+              719 ₽
+              <a class="desc__btn">В корзину</a>
+            </div>
+          </div>
+        </div>
+        <div class="card__item">
+          <div class="card__image">
+            <img src="img/goods/benzopila.png" alt="">
+          </div>
+          <div class="card__desc">
+            <div class="desc__name">
+              Человек-бензопила
+            </div>
+            <div class="desc__cost">
+              719 ₽
+              <a class="desc__btn">В корзину</a>
+            </div>
+          </div>
+        </div>
+        <div class="card__item">
+          <div class="card__image">
+            <img src="img/goods/benzopila.png" alt="">
+          </div>
+          <div class="card__desc">
+            <div class="desc__name">
+              Человек-бензопила
+            </div>
+            <div class="desc__cost">
+              719 ₽
+              <a class="desc__btn">В корзину</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="" class="block__link d-flex justify-content-center">Весь список хитов</a>
+    </div>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
